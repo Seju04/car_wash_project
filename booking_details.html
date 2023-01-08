@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CAR WASH</title>
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');      
+ @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+ 
+ 
+ 
+ h1   { color:darkslateblue; font-size: 400%; font-family:Yesteryear ; position: relative;} 
+  
+ div {font-family: Righteous; text-align: center; 
+      position: relative; background: rgba(255, 255, 255,0.3);}
+.fun {font-family:Asap Condensed; font-weight: bolder;border-color: black; border-radius: 6px; 
+      border-width:2px; position: relative;margin-left: 10px; text-align: center; }
+body
+{
+    background-color: rgb(221, 107, 170);
+    background-image:url("https://www.bing.com/images/search?view=detailV2&ccid=0TSE%2bjmJ&id=B79D824528FD1D5A213C2BE48FB35B89BCC93555&thid=OIP.0TSE-jmJw0bd_DXkdi1KYgHaFu&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.d13484fa3989c346ddfc35e4762d4a62%3frik%3dVTXJvIlbs4%252fkKw%26riu%3dhttp%253a%252f%252fwww.clipartbest.com%252fcliparts%252faie%252foLL%252faieoLL4KT.%26ehk%3dkTGb2NEq8TVVeXJB9my4l664zTFPZ%252bvIATJGTRAdVxY%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1552&q=Car+Wash+Images+Free&simid=607997890106498916&FORM=IRPRST&ck=CCAD50154EB4FAC8B1A673229D6E7A78&selectedIndex=8&ajaxhist=0&ajaxserp=0.jpg");
+    background-size:cover; background-position: center; 
+    position: relative;
+    border:black 3px; border-style: groove; border-radius: 5px; padding:20px;
+
+  }
+ body::before{
+   content:'';
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   background-image:url("https://www.bing.com/images/search?view=detailV2&ccid=0TSE%2bjmJ&id=B79D824528FD1D5A213C2BE48FB35B89BCC93555&thid=OIP.0TSE-jmJw0bd_DXkdi1KYgHaFu&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.d13484fa3989c346ddfc35e4762d4a62%3frik%3dVTXJvIlbs4%252fkKw%26riu%3dhttp%253a%252f%252fwww.clipartbest.com%252fcliparts%252faie%252foLL%252faieoLL4KT.%26ehk%3dkTGb2NEq8TVVeXJB9my4l664zTFPZ%252bvIATJGTRAdVxY%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1552&q=Car+Wash+Images+Free&simid=607997890106498916&FORM=IRPRST&ck=CCAD50154EB4FAC8B1A673229D6E7A78&selectedIndex=8&ajaxhist=0&ajaxserp=0.jpg");
+   background-size:cover; background-position: center; 
+    opacity: 0.2;
+ }
+ 
+
+ </style>
+ 
+</head>
+
+
+<body>
+  <div>
+ 
+<form class="" action="booking_details.jsp" method="post">
+
+
+<center>
+<H1> CAR WASH </H1>
+</center>
+
+NAME: <input type="text" name="NAME" value="" placeholder="eg.viha gauri" class="fun" required ><br><br>
+
+SELECT CITY: <select name="SELECT CITY" class="fun"value="" required>    
+<option></option> 
+<option>JABALPUR</option>
+<option>INDORE</option>
+<option>SEONI</option>
+<option>BHOPAL</option>
+<option>CHHINDWADA</option>
+<option>JASHPUR</option></select> <br> <br>
+ 
+
+EMAIL-ID: <input style="margin: 0px 50px 0px 10px;" type="text" name="EMAIL-ID" placeholder="eg.xyz@gmail.com" class="fun" value="" required>
+CONTACT NUMBER:+91 <input    type="text" placeholder="eg.8965432891" maxlength="10" class="fun" name= "CONTACT NUMBER" value="" required><br><br> 
+
+PICKUP DATE:<input type ="date" name="PICKUP DATE"  placeholder="dd-mm-yyy" min="2021- 01-01" max="2030-12-31" class="fun" value="" required><br><br> 
+
+PICKUP TIMING:<select name="PICKUP TIMING" class="fun" value="" required >
+  <option></option>
+  <option>9:00 am:12:00 pm-</option>
+  <option>12:00-3:00 pm</option>
+  <option>3:00-6:00 pm</option>
+  <option>6:00-9:00 pm</option>
+  <option>9:00-11:00 pm</option>
+</select> <br><br> 
+
+SERVICE TYPE:
+<input type="radio" name="SERVICE TYPE" class="fun" value="WATER WASH" required="required">WATER WASH
+<input type="radio" name="SERVICE TYPE" class="fun" value="BASIC SERVICE" required="required">BASIC SERVICES<br><br>   
+
+
+<br>
+<input style="color: ghostwhite; font-family:Anton;background-color: green; 
+padding: 10px 20px;
+text-align: center;
+border-color: snow; border-radius: 4px;" type="reset" value="reset">
+
+<input  style="color: rgb(249, 251, 255);font-family:Anton; background-color: darkslateblue ; border-radius: 4px; 
+padding: 10px 20px;
+text-align: center;
+border-color: snow;" type="submit" value="  submit  ">
+
+</form>
+</div>
+</body>
+</html>
